@@ -68,6 +68,7 @@ def main
 	end_time = Time.now
 	puts start_time.strftime("Started at %k:%M:%S on %A, %B %e")
 	puts ''
+	total_time = Time.new
 	total_time = end_time - start_time
 	puts "Calculation took #{total_time.sec} seconds, or #{total_time.min} minutes!"
 
