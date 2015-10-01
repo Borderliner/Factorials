@@ -66,7 +66,7 @@ def main
 
 	#Set End Time and calculate overall duration
 	end_time = Time.now
-	puts start_time.strftime("Started at %k:%M:%S on %A, %B %e")
+	puts end_time.strftime("Ended at %H:%M:%S on %A, %B %d of %Y")
 	puts ''
 	total_time = end_time - start_time
 	puts "Calculation took #{total_time} seconds, or #{total_time / 60} minutes!"
